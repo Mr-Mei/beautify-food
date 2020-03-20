@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <title>美食美客</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+  <div class="fash">
+    <img src="./img/logo.png" alt="">
+    <p>美食美客</p> 
+  </div>
+
+  <div class="app">
+    <div class="content">
+      <header class="app-header">
+        <div class="container">
+          <img src="./img/logo.png" alt="">
+          <p>美食美客</p>
+          <input type="text" placeholder="搜索...">
+        </div>
+      </header>
+      <div class="subheader container">
+        <div>
+          <p>配送信息</p>
+          <p>外卖小哥正向你飞奔而来，点击查看具体信息...&gt;</p>
+        </div>
+        <i class="iconfont icon-waimai"></i>
+      </div>
+      <div class="grid container">
+        <div class="item">
+          <h4>火锅</h4>
+          <p>没有什么是一顿火锅解决不了的...</p>
+          <!-- <i class="iconfont icon-huoguo"></i> -->
+          <img src="./img/huoguo.png" alt="">
+        </div>
+        <div class="item">
+          <h4>烧烤</h4>
+          <p>没有什么是一顿火锅解决不了的...</p>
+          <!-- <i class="iconfont icon-_shaokao"></i> -->
+          <img src="./img/shaokao.png" alt="">
+        </div>
+        <div class="item">
+          <h4>海鲜</h4>
+          <p>没有什么是一顿火锅解决不了的...</p>
+          <!-- <i class="iconfont icon-haixian"></i> -->
+          <img src="./img/haixian.png" alt="">
+        </div>
+        <div class="item">
+          <h4>快餐</h4>
+          <p>没有什么是一顿火锅解决不了的...</p>
+          <!-- <i class="iconfont icon-FastFood-"></i> -->
+          <img src="./img/kuaican.png" alt="">
+        </div>
+        <div class="item">
+          <h4>下午茶</h4>
+          <p>没有什么是一顿火锅解决不了的...</p>
+          <!-- <i class="iconfont icon-dujiaoshouicon"></i> -->
+          <img src="./img/xiawuchai.png" alt="">
+        </div>
+        <div class="item">
+          <h4>西餐</h4>
+          <p>没有什么是一顿火锅解决不了的...</p>
+          <!-- <i class="iconfont icon-_xican"></i> -->
+          <img src="./img/xican.png" alt="">
+        </div>
+      </div>
+    </div>
+    <footer class="app-footer">
+      <ul>
+        <li><i class="iconfont icon-lujing"></i>收藏</li>
+        <li><i class="iconfont icon-dingdan"></i>订单</li>
+        <li><i class="iconfont icon-wode"></i>我的</li>
+        <li><i class="iconfont icon-fujin"></i>附近</li>
+      </ul>
+    </footer>
+  </div>
+  <script>
+    var fash = document.querySelector('.fash');
+    setTimeout(() => {
+      fash.classList.add('fade');
+    }, 1000);
+  </script>
+</body>
+</html>
